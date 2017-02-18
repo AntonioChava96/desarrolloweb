@@ -1,11 +1,13 @@
- <!-- Este es el inicio del proyecto sobre mi -->
 <html>
-<head><title> Yo </title></head>
+<head><title>Yo</title></head>    
 <body>
-
- <p>texto</p>
- <p>mas texto</p>
- <p>mas texto</p>
- 
+    <header><h1>Jos&#233 Antonio Chavar&#237n D&#237az</h1></header><hr>
+    <nav><ul>
+        <li>inicio</li>
+        <li>contacto</li></ul></nav>
+    <section>
+    <article>Naci en Los Mochis, Sinaloa un 04 de abril de 1996<br>Esta es una foto mia de beb&#233<br> <img src="./img/bb.jpg" width="400" height="400"></article>
+    </section>
+    <footer>ITLM Productions&#174</footer>
 </body>
 </html>
