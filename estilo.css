@@ -1,0 +1,13 @@
+body{background-color:aliceblue;
+    background-image: url("./imgestilo/textura.jpg")}
+#Enc{background-color: deepskyblue;
+    border-style: double;
+    border-width: 10px;
+    border-color:dodgerblue ;
+    padding: 10px;}
+.center{text-align: center;}
+#secciones{border-style: outset;
+    border-width: 5px;}
+#piedepag{text-align: right;}
+    border-width: 5px;
+    border-color: dodgerblue;}
