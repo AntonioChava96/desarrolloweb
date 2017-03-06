@@ -1,13 +1,19 @@
 body{background-color:aliceblue;
-    background-image: url("./imgestilo/textura.jpg")}
-#Enc{background-color: deepskyblue;
+    background-image: url("./imgestilo/textura.jpg");}
+#secciones{border-style: outset;
+    border-width: 5px;}
+#enc{background-color: deepskyblue;
+    border-style: double;
+    border-width: 10px;
+    border-color:dodgerblue ;
+    padding: 10px;
+    background-image: url("./imgestilo/nombre.png");
+    background-repeat: no-repeat;
+    background-position: center;}
+.enc{background-color: deepskyblue;
     border-style: double;
     border-width: 10px;
     border-color:dodgerblue ;
     padding: 10px;}
 .center{text-align: center;}
-#secciones{border-style: outset;
-    border-width: 5px;}
-#piedepag{text-align: right;}
-    border-width: 5px;
-    border-color: dodgerblue;}
+.justify{text-align: justify;}
