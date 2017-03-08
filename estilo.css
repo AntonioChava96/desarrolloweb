@@ -1,19 +1,61 @@
-body{background-color:aliceblue;
-    background-image: url("./imgestilo/textura.jpg");}
-#secciones{border-style: outset;
-    border-width: 5px;}
-#enc{background-color: deepskyblue;
-    border-style: double;
-    border-width: 10px;
-    border-color:dodgerblue ;
+body{background-image: url("./imgestilo/textura.jpg");
+    }
+#wrapper{width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    width: auto;
+    margin-left:10px;
+    margin-right:10px;
+    
+    }
+#header{
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: white;
+    height: 160px;
+    margin-bottom: 20px;
+    }
+#content{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    }
+.imgcircular{border-radius:50%;
+    }
+*{margin: 0px;
+    padding: 0px;
+    }
+ul,ol{list-style:none;
+    }
+.nav>li{float:left;
+    }
+.nav li a{background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    }
+.nav li a:hover{background-color:#434343;
+    }
+.nav li ul{display:none;
+    position:absolute;
+    min-width:140px;
+    }
+.nav li:hover > ul {display:block;
+    }
+.nav li ul li {position:relative;
+    }
+.nav li ul li ul {right:-140px;
+    top:0px;
+	}
+.imgtext{display:flex;
+    }
+.cont{width:auto;
     padding: 10px;
-    background-image: url("./imgestilo/nombre.png");
-    background-repeat: no-repeat;
-    background-position: center;}
-.enc{background-color: deepskyblue;
-    border-style: double;
-    border-width: 10px;
-    border-color:dodgerblue ;
-    padding: 10px;}
-.center{text-align: center;}
-.justify{text-align: justify;}
+    }
+.footer{display: inline-flex;
+    }
