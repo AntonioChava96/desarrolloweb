@@ -5,26 +5,36 @@
           href="./estilo.css">
     <title>P&#225;gina principal</title></head>    
 <body>
-        <div id="enc">
-                <h1>&#160;</h1>
-                &#126;&#32;<a href="./pagprincipal.html">Inicio</a>&#32;
-                &#126;&#32;<a href="./contacto.html">Contacto</a>
-            </div><br>
-    
-        <div class="center">
-            <a href="./img/yo.jpg" target="_blank">
-                <img src="./img/yo.jpg" alt="yo" width="250" height="250">
-                </a><hr>
-            <p>Mi nombre es Jos&#233; Antonio Chavar&#237;n D&#237;az, nac&#237; en Los Mochis, Sinaloa, el 09 de abril de 1996. A continuaci&#243;n te presentare algunas etapas de mi vida.</p>
-        
-            <div id="secciones"><a href="./infancia.html"><img src="./imgestilo/infancia.png"></a>&#32;
-            <a href="./ninez.html"><img src="./imgestilo/ninez.png"></a>&#32;
-            <a href="./adolescencia.html"><img src="./imgestilo/adolescencia.png"></a>&#32;
-            <a href="./gustos.html"><img src="./imgestilo/gustos.png"></a>&#32;
-            <a href="./accidentes.html"><img src="./imgestilo/accidentes.png"></a>&#32;
-            <a href="./amigos.html"><img src="./imgestilo/amigos.png"></a></div>
-            
+        <div id="wrapper">
+        <div id="header">
+            <img src="./imgestilo/nombre.png">
+            <div class="menu">
+			<ul class="nav">
+				<li><a href="./pagprincipal.html">Inicio</a></li>
+				<li><a href="">Secciones</a>
+					<ul>
+						<li><a href="./infancia.html">Infancia</a></li>
+						<li><a href="./ninez.html">Ni&#241;ez</a></li>
+						<li><a href="./adolescencia.html">Adolescencia</a></li>
+						<li><a href="./gustos.html">Gustos</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="./contacto.html">Contacto</a></li>
+			</ul>
             </div>
+		</div>
+    
+        <div id="content">
+            
+            <a href="./img/pagprin/yo.jpg" target="_blank">
+                <img class="imgcircular" src="./img/pagprin/miniaturas/yo.jpg" alt="este soy yo">
+            </a><hr>
+            
+            <p>Mi nombre es Jos&#233; Antonio Chavar&#237;n D&#237;az, nac&#237; en Los Mochis, Sinaloa, el 09 de abril de 1996. Actualmente estudio Ingenier&#237;a Inform&#225;tica en el Tecnol&#243;gico de Los Mochis. En este trabajo te presentare algunas etapas de mi vida.</p>
+            
+        </div>
+        </div>
     
 </body>
 </html>
