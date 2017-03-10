@@ -1,14 +1,9 @@
-body{background-image: url("./imgestilo/textura.jpg");
+body{background-image: url("./img/estilo/textura.jpg");
     }
 #wrapper{width: 100%;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+    margin: 15px;
     width: auto;
-    margin-left:10px;
-    margin-right:10px;
-    
     }
 #header{
     margin:auto;
@@ -20,9 +15,9 @@ body{background-image: url("./imgestilo/textura.jpg");
     margin-bottom: 20px;
     }
 #content{
-    width: 100%;
     background-color: white;
     height: auto;
+    padding:20px;
     }
 .imgcircular{border-radius:50%;
     }
@@ -52,10 +47,17 @@ ul,ol{list-style:none;
 .nav li ul li ul {right:-140px;
     top:0px;
 	}
-.imgtext{display:flex;
+.division{display:flex;
     }
 .cont{width:auto;
     padding: 10px;
     }
 .footer{display: inline-flex;
+    }
+.zoom{/* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;   
+    }
+.zoom:hover{/* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+    transform : scale(1.5);
     }
