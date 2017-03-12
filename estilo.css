@@ -18,6 +18,7 @@ body{background-image: url("./img/estilo/textura.jpg");
     background-color: white;
     height: auto;
     padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
     }
 .imgcircular{border-radius:50%;
     }
