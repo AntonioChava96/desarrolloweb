@@ -3,8 +3,42 @@
     <link rel="stylesheet" 
           type="text/css" 
           href="./estilo.css">
-    <title>P&#225;gina principal</title></head>    
-<body>
+    <title>P&#225;gina principal</title>
+<script>
+    
+      var max=0;
+    
+      function textlist()
+      {
+      max=textlist.arguments.length;
+      for (i=0; i<max; i++)
+      this[i]=textlist.arguments[i];
+      }
+      tl=new textlist
+      ( 
+       "Bienvenido a mi sitio web",    
+       "En el apartado de contacto estan mis redes",
+       "Espero que tengas un lindo dia",
+       "Espero que te guste mi sitio web"
+        
+      );
+      var x=0; pos=0;
+      var l=tl[0].length;
+    
+      function textticker(){
+          document.tickform.tickfield.value=tl[x].substring(0,pos)+"_";
+          
+        if(pos++==l){ pos=0; setTimeout("textticker()",1000); x++;           
+        if(x==max) x=0; l=tl[x].length; 
+        }else
+        setTimeout("textticker()",50);
+      }
+    
+</script>
+    
+    
+</head>    
+<body onLoad="textticker()">
         <div id="wrapper">
         <div id="header">
             <img src="./img/estilo/nombre.png">
@@ -24,6 +58,7 @@
 				<li><a href="./contacto.html">Contacto</a></li>
 			</ul>
             </div>
+            <form name="tickform"><input type=text class="sampletext" name="tickfield" size=50 readonly></form>
 		</div>
     
         <div id="content">
